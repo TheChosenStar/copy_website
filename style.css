@@ -1,0 +1,242 @@
+body {
+    background-color:  rgb(20, 33, 53);
+    font-family:sans-serif;
+}
+.items{
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+nav {
+    margin-top: 0px;
+    background-color: #1D3572;
+    display: flex;
+    justify-content: space-around;
+    height: 65px;
+}
+a {
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.logo{
+    width: 70px;
+    margin-left: 5px;
+    margin-right: 60px;
+    margin-top: 10px;;
+}
+.bar {
+    margin-left: 60px;
+    background-color: yellow;
+    width: 30px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#Right {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(30, 30, 77);
+    font-size: 15px;
+    color: gray;
+    flex-direction: row;
+}
+#Right img {
+    width: 20px;
+}
+.The_Games {
+    display: flex;
+    justify-content: space-between;
+}
+.Categories {
+    display: flex;
+    flex-direction: column;
+
+}
+.Games {
+    display: flex;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.game {
+    border: 1px solid rgb(30, 153, 219);
+    border-radius: 2px;
+    margin-right: 10px;
+    height: 50px;
+    width: 83px;
+}
+.gameSpeech {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 263px;
+}
+
+.quiz {
+    border: 1px solid yellow;
+    border-radius: 2px;
+    height: 69px;
+    width: 83px;
+    margin-right: 10px;
+
+}
+
+.game2 {
+    border: 1px solid rgb(255, 153, 0);
+    border-radius: 2px;
+    height: 50px;
+    width: 83px;
+    margin-right: 10px;
+}
+
+.speech_Box {
+    display: flex;
+    background-color: rgb(0, 81, 135);
+    align-items: center;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 356px;
+    justify-content: space-between;
+}
+.speech_Box2 {
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    padding-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.speech_Box3 {
+    display: flex;
+    background-color: orangered;
+    align-items: center;
+    padding-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+p {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.Top_Ad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Top {
+    height: 100px;
+}
+h2 {
+    color: white;
+    padding: 5px;
+    padding-right: 40px;
+    margin: 0px;
+}
+h3 {
+    align-self: center;
+    margin: 0px;
+}
+#speech {
+    width: 15px;
+    align-self: center;
+}
+#speech2 {
+    width: 15px;
+    align-self: center;
+
+}
+#bgcolordblu {
+    color: rgb(20, 33, 53);
+}
+#lb {
+    color: rgb(0, 148, 148);
+    font-size: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#sp {
+    margin-bottom: 4px;
+}
+#box {
+    color: rgb(51, 145, 145);
+    font-size: small;
+    font-weight: 200;
+}
+
+#box2 {
+    color: rgba(99, 68, 44, 0.85);
+    font-size: small;
+    font-weight: 200;
+}
+#boxFinal {
+    background-color: rgb(0, 81, 135);
+    color: rgb(51, 145, 145);
+    padding: 8px;
+    padding-left: 15px;
+    font-size: small;
+    font-weight: 200;
+    border-radius: 5px;
+}
+#ad {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+#description {
+    color: white;
+    font-weight: normal;
+    margin-bottom: 0px;
+    text-wrap: wrap;
+    align-self: flex-start;
+    font-size: 16px;
+}
+#adRight{
+    height:231px;
+}
+#game {
+    color: rgb(30, 153, 219);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    font-weight: bold;
+}
+#quiz {
+    color: yellow;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    font-weight: bold;
+}
+#game2 {
+    color: rgb(255, 153, 0);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.Final{
+    height:100px;
+    width: 300px;
+    border-radius: 10px;
+    background-image: url(images/Games_4_Kids.png);
+    margin-bottom: 10px;
+}
+#final_big{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+#final_small{
+    margin-left: 60px;
+    font-size: 85%;
+
+}
